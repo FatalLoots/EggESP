@@ -184,7 +184,7 @@ local function cooldownAndRestart(seconds)
     end
 
     -- Re-run the same script again (self-replicating)
-    loadstring(game:HttpGet("https://pastebin.com/raw/yourFinalScriptURLHere"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FatalLoots/EggESP/refs/heads/main/EGGESP"))()
 end
 
 -- Button handler
